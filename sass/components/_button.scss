@@ -10,11 +10,12 @@
   @include fonts(16px, 700, 1.9);
   text-align: center;
   letter-spacing: 0.06em;
-  transition: box-shadow var(--transition-hover-focus);
+  transition: background-color var(--transition-hover-focus);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
   &:hover,
   &:focus {
-    cursor: pointer;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background-color: #188ce8;
   }
 }
 
